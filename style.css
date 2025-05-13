@@ -1,0 +1,86 @@
+body {
+    background-color: #F2F2F2;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    padding: 20px 0;
+    color: #393E46;
+    background-color: #F5F5F5;
+    text-align: center;
+}
+
+.header > h1 {
+    font-size: 36px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+
+section {
+    width: 95%;
+    min-height: auto;
+    height: auto;
+    margin: 20px auto;
+    background-color: #E0E0E0;
+    border-color: black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+section > h2 {
+    font-family: "Josefin Sans Bold";
+    font-size: 24px;
+    margin-top: 0;
+}
+
+section > hr {
+    margin: 10px 0;
+}
+
+section > h5 {
+    position: static;
+    text-align: right;
+    font-style: italic;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+section > p {
+    font-family: "PT Serif";
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .header > h1 {
+        font-size: 30px;
+    }
+    section {
+        width: 98%;
+        padding: 10px;
+        margin: 15px auto;
+    }
+    section > h2 {
+        font-size: 20px;
+    }
+    section > p {
+        font-size: 15px;
+    }
+    section > h5 {
+        font-size: 12px;
+        left: auto;
+        top: auto;
+        text-align: right;
+        margin-top: 5px;
+    }
+}
